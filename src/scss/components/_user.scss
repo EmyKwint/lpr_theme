@@ -1,0 +1,26 @@
+@use '../utils/variables' as *;
+
+.user__connect {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    background-color: $background-blur;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: $shadow;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 40%;
+    right: 40%;
+    z-index: 2;
+}
+
+.user__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
