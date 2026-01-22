@@ -1,6 +1,6 @@
-<html lang="fr" data-theme-uri="<?php echo get_template_directory_uri(); ?>">
+<html <?php language_attributes(); ?>>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -8,11 +8,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Allison&family=Bilbo+Swash+Caps&family=Cookie&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oregano:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <?php wp_head(); ?>
-
     <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.19/index.global.min.js'></script>
 
-    <title>La Place Rouge</title>
+    <?php wp_head(); ?>
 </head>
 
 
@@ -40,7 +38,7 @@
                     <a class="menu__btn-txt" href="reservation.html">Réservation</a>
                 </li>
                 <li class="menu__item" >
-                    <a class="title header__title" href="index.html">
+                    <a class="title header__title" href="laPlaceRouge">
                         <h1>La Place Rouge</h1> 
                     </a>
                 </li>

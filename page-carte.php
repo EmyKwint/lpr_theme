@@ -1,15 +1,25 @@
 <?php get_header(); ?>
 
-        <section class="container section-carte">
-        <h1 class="menu__title menu__title-carte">Notre Carte</h1>
-        <div class="carte">
-            <h3 class="carte__title">Entrées :</h3>
-            <div class="carte__part"></div>
+<section class="container section-carte">
+    <h1 class="menu__title menu__title-carte"><?php the_title(); ?></h1>
+    
+    <div class="carte">
+        <?php
+        $terms = get_terms(array(
+            'taxonomy' => 'designation',
+            'hide_empty' => true,
+        ));
+
+        if (!empty($terms) && !is_wp_error($terms)) {
+            foreach($terms as $term) { 
+            ?>
+            <div class="carte__section">
+                <h3 class="carte__title"><?php echo esc_html($term->name); ?></h3>
 
                 <div class="carte__produit">
                     <div class="produit__img-title-desc">
                         <img 
-                            src="assets/img/carte/entree1.webp"
+                            src="<?php echo get_template_directory_uri(); ?>/assets/img/carte/entree1.webp"
                             class="produit__img"
                             alt="image d'un blini tartiné de caviar" />
                         <div class="produit__title-desc">
@@ -21,9 +31,11 @@
                         <span class="carte__price">30€</span>
                     </div>
                 </div>
-
-            </div>
-        </div>
-    </section>
+            </div> 
+            <?php
+            } 
+        }
+        ?>
+    </div> </section>
 
 <?php get_footer(); ?>
