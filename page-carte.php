@@ -8,6 +8,8 @@
         $terms = get_terms(array(
             'taxonomy' => 'designation',
             'hide_empty' => true,
+            'orderby' => 'description',
+            'order' => 'DESC'
         ));
 
         if (!empty($terms) && !is_wp_error($terms)) {
