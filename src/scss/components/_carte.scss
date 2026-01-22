@@ -12,11 +12,11 @@
     background-color: $white_fifty;
 }
 
-.carte__part {
-    display: flex;
-    flex-direction: column;
-    padding: 0px 100px;
+.carte__section {
+    margin-bottom: 30px; 
+    width: 100%;
 }
+
 
 .carte__produit{
     display: flex;
@@ -37,10 +37,14 @@
 
 .menu__title-carte {
     position: absolute;
+    font-family: $title_font;
+    font-size: $font_uxxl;
+    color: $secondary;
     left: 35vw;
-    top: 90px;
+    top: 40px;
 }
 .carte__title {
+  margin-bottom: 20px;
   color: $black;
   font-family: "Cookie";
   font-size: $font_xxl;

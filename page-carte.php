@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <section class="container section-carte">
-    <h1 class="menu__title menu__title-carte"><?php the_title(); ?></h1>
+    <h2 class="menu__title menu__title-carte"><?php the_title(); ?></h2>
     
     <div class="carte">
         <?php
@@ -36,6 +36,7 @@
             } 
         }
         ?>
-    </div> </section>
+    </div> 
+</section>
 
 <?php get_footer(); ?>

@@ -591,4 +591,85 @@ img {
   width: 75%;
   font-family: "Red Hat Display";
   font-size: 2rem;
+}
+
+.carte {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(209, 21, 21);
+  border-radius: 25px;
+  box-shadow: 2px 5px 5px black;
+  padding: 60px 100px;
+  margin-top: 90px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.carte__section {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.carte__produit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.produit__img-title-desc {
+  display: flex;
+  flex-direction: row;
+}
+
+.produit__title-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu__title-carte {
+  position: absolute;
+  font-family: "Oregano", cursive;
+  font-size: 12.8rem;
+  color: rgb(102, 155, 188);
+  left: 35vw;
+  top: 40px;
+}
+
+.carte__title {
+  margin-bottom: 20px;
+  color: #1A0000;
+  font-family: "Cookie";
+  font-size: 6.4rem;
+  border-bottom: 1px solid #1A0000;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.produit__title {
+  font-size: 4rem;
+  font-family: "Oregano", cursive;
+  border-bottom: 1px solid #1A0000;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.produit__desc {
+  font-size: 2rem;
+  font-family: "Red Hat Display";
+}
+
+.produit__img {
+  width: 100px;
+}
+
+.carte__price__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.carte__price {
+  font-family: "Oregano", cursive;
+  font-size: 4rem;
+  color: rgb(209, 21, 21);
 }/*# sourceMappingURL=style.css.map */
