@@ -14,7 +14,6 @@ window.slide = function(sens) {
     if (position > imgStock.length - 1) position = 0;
     if (position < 0) position = imgStock.length - 1;
 
-    // Update image source and alt text
     const themeUri = document.documentElement.getAttribute('data-theme-uri');
     img.src = `${themeUri}/assets/img/${imgStock[position].affiche}`;
     img.alt = imgStock[position].titre;
