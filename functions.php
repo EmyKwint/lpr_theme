@@ -14,7 +14,5 @@
 	
 	require_once get_template_directory() . '/classes/class-lpr-walker-menu.php'; 
 
-	
-	wp_enqueue_script('mon_script_slider', get_template_directory_uri() . '/js/carroussel.js', array(), null, false);
 
 
