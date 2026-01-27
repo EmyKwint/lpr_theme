@@ -14,7 +14,11 @@ window.slide = function(sens) {
     if (position > imgStock.length - 1) position = 0;
     if (position < 0) position = imgStock.length - 1;
 
-    const themeUri = document.documentElement.getAttribute('data-theme-uri');
-    img.src = `${themeUri}/assets/img/${imgStock[position].affiche}`;
-    img.alt = imgStock[position].titre;
+    if(typeof wp_path !== 'undefined') {
+      const themeUri = wp_path.template.dir;
+      img.src = `${themeUri}/assets/img/${imgStock[position].affiche}`;
+      img.alt = imgStock[position].titre;
+    } else {
+      console.error("L'objet wp_paths est introuvable. Vérifiez wp_localize_script.");
+    }
 };
