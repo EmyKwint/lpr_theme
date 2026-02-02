@@ -1,13 +1,5 @@
     <?php get_header(); ?>
     
-    <section class="user__connect" id="user__connect">
-        <form class="user__form" action="login.php" method="post">
-            <h2 class="title user__title">Connexion</h2>
-            <input class="user__input" type="text" name="username" placeholder="Nom d'utilisateur" required>
-            <input class="user__input" type="password" name="password" placeholder="Mot de passe" required>
-            <button class="btn btn-cta user__btn" type="submit">Se connecter</button>
-        </form>
-    </section>
 
     <section class="section hero">   
             <div class="hero__cover">
