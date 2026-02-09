@@ -38,12 +38,12 @@
                     <a class="menu__btn-txt" href="reservation.html">Réservation</a>
                 </li>
                 <li class="menu__item" >
-                    <a class="title header__title" href="laPlaceRouge">
+                    <a class="title header__title" href="/laPlaceRouge/">
                         <h1>La Place Rouge</h1> 
                     </a>
                 </li>
                 <li class="menu_item menu__text">
-                    <a class="menu__btn-txt" href="carte.html">Notre Carte</a>
+                    <a class="menu__btn-txt" href="?page_id=149">Notre Carte</a>
                 </li>
                 <li class="menu_item menu__text">
                     <a class="menu__btn-txt" href="galerie.html">Galerie</a>
