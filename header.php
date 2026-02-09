@@ -63,3 +63,12 @@
             </ul>
         </nav>
     </header>
+
+    <section class="user__connect" id="user__connect" aria-hidden="true">
+        <form class="user__form" action="<?php echo esc_url( wp_login_url() ); ?>" method="post">
+            <h2 class="title user__title">Connexion</h2>
+            <input class="user__input" type="text" name="log" placeholder="Nom d'utilisateur" required>
+            <input class="user__input" type="password" name="pwd" placeholder="Mot de passe" required>
+            <button class="btn btn-cta user__btn" type="submit">Se connecter</button>
+        </form>
+    </section>

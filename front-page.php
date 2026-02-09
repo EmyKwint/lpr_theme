@@ -11,7 +11,7 @@
                     <i class="bi bi-arrow-left-circle-fill  hero__arrow-left"  onclick="slide(-1)" ></i>
                     <i class="bi bi-arrow-right-circle-fill hero__arrow-right" onclick="slide(1)"  ></i>
                     <div class="btn btn-cta">
-                        <a class="text" href="carte.html">Regardez notre menu</a>
+                        <a class="text" href="?page_id=149">Regardez notre menu</a>
                     </div>
             </div>
 

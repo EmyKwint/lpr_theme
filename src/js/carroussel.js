@@ -15,10 +15,10 @@ window.slide = function(sens) {
     if (position < 0) position = imgStock.length - 1;
 
     if(typeof wp_path !== 'undefined') {
-      const themeUri = wp_path.template.dir;
+      const themeUri = wp_path.template_dir;
       img.src = `${themeUri}/assets/img/${imgStock[position].affiche}`;
       img.alt = imgStock[position].titre;
     } else {
-      console.error("L'objet wp_paths est introuvable. Vérifiez wp_localize_script.");
+      console.error("L'objet wp_path est introuvable. Vérifiez wp_localize_script.");
     }
 };
