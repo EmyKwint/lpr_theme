@@ -11,7 +11,7 @@
 @use 'layout/menu';
 @use 'layout/footer';
 
-@use 'components/user';
+
 @use 'components/hero';
 @use 'components/img';
 @use 'components/index';
@@ -19,3 +19,4 @@
 @use 'components/btn';
 @use 'components/calendar';
 @use 'components/carte';
+@use 'components/user';

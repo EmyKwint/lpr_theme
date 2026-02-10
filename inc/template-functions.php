@@ -44,19 +44,17 @@
 function lprtheme_scripts_styles() {
     wp_enqueue_style( 'style', get_template_directory_uri() . '/src/scss/style.css' );
     
-    // false = chargement dans le header
+    // Carroussel script
     wp_enqueue_script( 'carroussel', get_template_directory_uri() . '/src/js/carroussel.js', array(), '1.0.0', true );
     wp_localize_script('carroussel', 'wp_path', array(
       'template_dir' => get_template_directory_uri()
     ));
-
-    wp_enqueue_script( 'user__connexion', get_template_directory_uri() . '/src/js/user__connexion.js', array(), '1.0.0', true );
     
     add_filter('script_loader_tag', 'add_defer_attribute', 10, 2);
 }
 
 function add_defer_attribute($tag, $handle) {
-    if ('user__connexion' === $handle || 'carroussel' === $handle) {
+    if ('carroussel' === $handle || 'user-connexion-js' === $handle) {
         return str_replace(' src', ' defer src', $tag);
     }
     return $tag;
