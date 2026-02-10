@@ -48,7 +48,7 @@
                     <a class="menu__btn-txt" href="?page_id=149">Notre Carte</a>
                 </li>
                 <li class="menu_item menu__text">
-                    <a class="menu__btn-txt" href="galerie.html">Galerie</a>
+                    <a class="menu__btn-txt" href="">Galerie</a>
                 </li>
             </ul>
             <ul class="menu__list">
