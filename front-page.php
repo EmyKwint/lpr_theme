@@ -87,7 +87,7 @@
             Réservez dès maintenant !
         </h3>
 
-        <div class="index__reservation">
+        <div class="index__reservation" id="index__reservation">
             <div class="index__presentation-txt2">
                 <span class="text text-red index__text__3">Connectez vous à vôtre compte</span>
                 <span class="text text-black index__text__3">et réservez maintenant pour bénéficier de</span>

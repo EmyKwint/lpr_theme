@@ -1,5 +1,4 @@
 <?php
-
 	// Intégration du fichier avec les appels add_action().
 	require_once get_template_directory() . '/inc/actions.php';
 	

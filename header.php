@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html <?php language_attributes(); ?>>
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -32,10 +34,10 @@
             </ul>
             <ul class="menu__list menu__center">
                 <li class="menu__item menu__text">
-                    <a class="menu__btn-txt" href="contact.html">Contact</a>
+                    <a class="menu__btn-txt" href="">Contact</a>
                 </li>
                 <li class="menu__item menu__text">
-                    <a class="menu__btn-txt" href="reservation.html">Réservation</a>
+                    <a class="menu__btn-txt" href="#index__reservation">Réservation</a>
                 </li>
                 <li class="menu__item" >
                     <a class="title header__title" href="/laPlaceRouge/">

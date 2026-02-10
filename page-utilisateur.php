@@ -11,7 +11,7 @@
             </div>
             <button class="btn user__fidelity-btn">Voir les avantages</button>
         </div>
-    <a href="<?php echo wp_logout_url(get_permalink()); ?>" class="btn user__logout-btn">Se déconnecter</a>
+    <a href="#" id="user-logout-link" class="btn user__logout-btn">Se déconnecter</a>
     </div>
 </section>
 
