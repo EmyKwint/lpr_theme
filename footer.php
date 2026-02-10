@@ -34,8 +34,8 @@
         <div class="container footer__link">
             <span class="text-white dev__thx">2025. Créé avec Passion par Louise R.</span>
             <div class="footer__item-white footer__link-link ">
-                <a href="mention.php">Mentions Légales</a>
-                <a href="mention.php">Politique confidentialité</a>
+                <a href="<?php echo get_permalink(15); ?>">Mentions Légales</a>
+                <a href="<?php echo get_permalink(3); ?>">Politique confidentialité</a>
             </div>
         </div>
     </footer>
