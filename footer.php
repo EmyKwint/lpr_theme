@@ -40,24 +40,6 @@
         </div>
     </footer>
 
-   <script>
-
-      document.addEventListener('DOMContentLoaded', function() {
-        var calendarEl = document.getElementById('calendar');
-        var calendar = new FullCalendar.Calendar(calendarEl, {
-          selectable: true,
-          height: 555,
-          initialView: 'dayGridMonth',
-          firstDay: 1,
-          locale: 'fr',
-          events: [
-          ]
-        });
-        calendar.render();
-      });
-
-    </script>
-
 <?php wp_footer(); ?>
 </body>
 </html>

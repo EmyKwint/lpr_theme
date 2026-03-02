@@ -95,7 +95,9 @@
                 <span class="text text-black index__text__3">Vous souhaitez voyager depuis chez vous ?</span>
                 <span class="text text-red index__text__3">Connectez vous, commandez depuis le menu et venez chercher votre repas ! <br /></span>
             </div>
-            <div class="calendar" id='calendar' style=" margin: auto;"></div>
+            <div class="calendar" id='calendar' style=" margin: auto;">
+                <?php echo do_shortcode('[lpr_reservation_calendar]'); ?>
+            </div>
 
         </div>
 

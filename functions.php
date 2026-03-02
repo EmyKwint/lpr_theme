@@ -13,5 +13,13 @@
 	
 	require_once get_template_directory() . '/classes/class-lpr-walker-menu.php'; 
 
+	add_action('rest_api_init', function() {
+    register_rest_route('test/v1', '/hello', [
+        'methods' => 'GET',
+        'callback' => function() { return 'API ACTIVE !'; },
+        'permission_callback' => '__return_true'
+    ]);
+});
+
 
 
