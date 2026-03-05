@@ -1,7 +1,7 @@
 @use '../utils/variables' as *;
 
 .user__connect {
-    position: absolute;
+    position: fixed;
     display: none;
     flex-direction: column;
     align-items: center;

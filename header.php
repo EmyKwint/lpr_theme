@@ -58,7 +58,7 @@
                     </a>
                 </li>
                 <li class="menu__item menu-btn__bar">
-                    <button class="menu-btn">
+                    <button class="menu-btn" id="user__connect">
                         <span class=""></span>
                     </button>
                 </li>
